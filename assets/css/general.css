@@ -1,0 +1,75 @@
+
+.nav-bar{
+    margin-top: 170px;
+    margin-left: 5%;
+}
+
+.col_nav-bar{
+    max-width: 7%;
+}
+
+.nav-bar a{
+    text-decoration: none;
+}
+
+.titulo-principal{
+    text-align: center;
+}
+
+.titulo-secundario{
+    text-align: center;
+}
+
+.cuerpo-main{
+    margin: 3%;
+    background-color: antiquewhite;
+    border-radius: 15px;
+}
+
+.img-tec{
+    max-width: 350px;
+    border-radius: 15px;
+}
+
+.perfil-programador{
+    margin: auto;
+    max-width: 30%;
+    text-align: center;
+    background-color: rgba(250, 235, 215, 0.486);
+    border-radius: 15px;
+}
+
+.pie_pag-top{
+    background-color: black;
+    color: aliceblue;
+}
+
+.pie_pag-bot{
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+}
+
+.titulo-footer{
+    text-align: center;
+}
+
+.parrafo-footer{
+    text-align: center;
+}
+
+.nav-bar-footer a{
+    text-decoration: none;
+}
+
+.mountaincode{
+    height: 230px;
+    width: 230px;
+    margin-left: 25%;
+}
+
+.bootcamparg{
+    height: 230px;
+    width: 230px;
+    margin-left: 25%;
+}
