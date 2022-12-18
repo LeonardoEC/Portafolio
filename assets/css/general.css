@@ -1,15 +1,23 @@
-
-.nav-bar{
-    margin-top: 170px;
-    margin-left: 5%;
+.col_nav-bar{
+    background-color: black;
+    max-width: 7%;
 }
 
-.col_nav-bar{
-    max-width: 7%;
+.nav-bar{
+    margin-left: 5%;
+    margin-top: 400px;
 }
 
 .nav-bar a{
     text-decoration: none;
+    margin-top: 15%;
+}
+
+/* cuerpo principal */
+
+.cuerpo-principal{
+    background-color: black;
+    color: white;
 }
 
 .titulo-principal{
@@ -22,26 +30,78 @@
 
 .cuerpo-main{
     margin: 3%;
-    background-color: antiquewhite;
     border-radius: 15px;
+    border: 1px solid gray;
+}
+
+.cuerpo-main h1{
+    margin-top: 15%;
+    margin-left: 5%;
+}
+
+.cuerpo-main p{
+    margin-top: 4%;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 .img-tec{
-    max-width: 350px;
+    margin: 5%;
+    max-width: 90%;
     border-radius: 15px;
 }
 
-.perfil-programador{
-    margin: auto;
-    max-width: 30%;
-    text-align: center;
-    background-color: rgba(250, 235, 215, 0.486);
+.img-sobre-me{
+    margin: 5%;
+    max-width: 90%;
     border-radius: 15px;
 }
+
+/* cuerpo de la derecha */
+
+.perfil-programador{
+    margin: auto;
+    width: 20%;
+    margin-top: 2.5%;
+    margin-bottom: 3%;
+    text-align: center;
+    border-radius: 15px;
+    border: 1px solid gray;
+}
+
+.row_per_ac{
+    margin-top: 35%;
+}
+
+.perfil-programador h3{
+    margin-top: 20%;
+}
+
+.img_perfil_ac{
+    max-width: 55%;
+    opacity: 50%;
+}
+.img_perfil_ac:hover{
+    opacity: 100%;
+}
+
+
+.img_perfil_ac-git{
+    max-width: 55%;
+    opacity: 30%;
+}
+
+.img_perfil_ac-git:hover{
+    opacity: 100%;
+}
+
+
+/* pie de pagina */
 
 .pie_pag-top{
     background-color: black;
     color: aliceblue;
+    text-align: center;
 }
 
 .pie_pag-bot{
@@ -52,6 +112,8 @@
 
 .titulo-footer{
     text-align: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
 
 .parrafo-footer{
