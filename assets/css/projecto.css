@@ -1,0 +1,61 @@
+
+.cuerpo-projecto{
+    margin: 1%;
+}
+
+
+.title-principal-pro{
+    text-align: center;
+    border: 1px solid gray;
+    border-radius: 15px;
+    background-color: rgba(0, 4, 255, 0.822);
+    color: white;
+    padding: 1%;
+    max-width: 99%;
+}
+
+
+.title-pro-perso {
+    margin-bottom: 2%;
+    text-align: center;
+}
+
+.cuerpo-proje-per-1{
+    margin-left: 3%;
+    padding: 1%;
+    border: 2px solid grey;
+    border-radius: 15px;
+}
+
+.img-pro-perso{
+    border: 2px solid green;
+}
+
+
+.cuerpo-proje-per-2{
+    margin-left: 3%;
+    padding: 1%;
+    border: 2px solid grey;
+    border-radius: 15px;
+}
+
+.titulo-pro-coop{
+    text-align: center;
+}
+
+.img-pro{
+    max-width: 80%;
+    margin: auto;
+    margin-top: 2%;
+    margin-bottom: 3%;
+}
+
+.mini_menu{
+    text-align: center;
+    margin: 2%;
+}
+
+.mini_menu a{
+    text-decoration: none;
+}
+

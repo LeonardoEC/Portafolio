@@ -7,41 +7,44 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/general.css">
     <link rel="stylesheet" href="../../assets/css/general.css">
+    <link rel="stylesheet" href="../../assets/css/sobre_mi.css">
     <title>Portafolio | Sobre mi</title>
   </head>
   <body>
     <div class="contaioner-fluid">
         <div class="row">
-            <div class="col-2">
+            <div class="col-2 col_nav-bar">
                 <nav class="nav-bar">
-                    <div class="row">
-                        <a href=""><ion-icon name="home-outline"></ion-icon>Inicio</a>
+                    <div class="row rw_nav-bar">
+                        <a href="../../index.html"><ion-icon name="home-outline"></ion-icon> Inicio</a>
                     </div>
-                    <div class="row">
-                        <a href=""><ion-icon name="person-outline"></ion-icon>Sobre mi</a>
+                    <div class="row rw_nav-bar">
+                        <a href="../sobre_me/sobre_me.html"><ion-icon name="person-outline"></ion-icon> Sobre mi</a>
                     </div>
-                    <div class="row">
-                        <a href=""><ion-icon name="code-outline"></ion-icon>Tecnologia</a>
+                    <div class="row rw_nav-bar">
+                        <a href="../tecnologia/tecnologia.html"><ion-icon name="code-outline"></ion-icon> Tecnologia</a>
                     </div>
-                    <div class="row">
-                        <a href=""><ion-icon name="desktop-outline"></ion-icon>Proyectos</a>
+                    <div class="row rw_nav-bar">
+                        <a href="../projecto/projecto.html"><ion-icon name="desktop-outline"></ion-icon> Projectos</a>
                     </div>
-                    <div class="row">
-                        <a href=""><ion-icon name="people-outline"></ion-icon>Contactos</a>
+                    <!--
+                    <div class="row rw_nav-bar">
+                        <a href="../contacto/contacto.html"><ion-icon name="people-outline"></ion-icon> Contactos</a>
                     </div>
+                    -->
                 </nav>
             </div>
 
     
             <div class="col">
-                <div class="container">
+                <div class="contaioner-fluid">
                     <header>
-                        <div class="row">
+                        <div class="row cuerpo-principal">
                             <div class="col">
                                 <h1 class="titulo-principal">Leonardo Vivas</h1>
                             </div>
                         </div>
-                        <div class="row">
+                        <div class="row cuerpo-principal">
                             <div class="col">
                                 <h3 class="titulo-secundario">Sobre mi</h3>
                             </div>
@@ -50,18 +53,19 @@
 
                     <main>
                         <section>
-                            <div class="row">
-                                <div class="col-2">
+                            <div class="row cuerpo-sobremi">
+                                <div class="col-6">
                                     <article>
                                         <img src="" alt="foto">
                                     </article>
                                 </div>
-                                <div class="col-10">
+                                <div class="col-4">
                                     <article>
-                                        <div class="row">
+                                        <div class="row titulos_sobre_mi">
                                             <h3>Estudiante de programacion</h3>
+                                            <h5>Desarrollador web - Desarrollador Videojuegos</h5>
                                         </div>
-                                        <div class="row">
+                                        <div class="row txt_sobre_mi">
                                             <p>
                                                 Bienvenido a mi portafolio, mi nombre es Leonardo Daniel Vivas
                                                 y soy estudiante en el Instituto Politecnico de Cordoba(ISPC)
@@ -106,48 +110,50 @@
         
         <div class="row">
             <footer>
-                <div class="row">
+                <div class="row pie_pag-top">
                     <div class="col">
                         <img src="" alt="logo">
-                    </div>
-                    <div class="col">
-                        <h6 class="titulo-footer">Menu</h6>
-                        <div class="row nav-bar-footer">
-                            <div class="col">
-                                <a href=""><ion-icon name="home-outline"></ion-icon>Inicio</a>
-                            </div>
-                            <div class="col">
-                                <a href=""><ion-icon name="person-outline"></ion-icon>Sobre mi</a>
-                            </div>
-                            <div class="col">
-                                <a href=""><ion-icon name="code-outline"></ion-icon>Tecnologia</a>
-                            </div>
-                            <div class="col">
-                                <a href=""><ion-icon name="desktop-outline"></ion-icon>Proyectos</a>
-                            </div>
-                            <div class="col">
-                                <a href=""><ion-icon name="people-outline"></ion-icon>Contactos</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col">
-                        <p class="parrafo-footer">Gracias por visitar mi pagina </p>
                     </div>
                     <div class="col">
                         <div class="row">
                             <h6 class="titulo-footer">Contacto</h6>
                         </div>
-                        <div class="row">
+                        <div class="row nav-bar-footer">
                             <div class="col">
-                                <a href=""><ion-icon name="logo-linkedin"></ion-icon>Linkedin</a>
+                                <a href=""><ion-icon name="logo-linkedin"></ion-icon> Linkedin</a>
                             </div>
                             <div class="col">
-                                <a href=""><ion-icon name="logo-github"></ion-icon>GitHub</a>
+                                <a href=""><ion-icon name="logo-github"></ion-icon> GitHub</a>
                             </div>
                             <div class="col">
-                                <a href=""><ion-icon name="mail-outline"></ion-icon>Gmail</a>
+                                <a href=""><ion-icon name="mail-outline"></ion-icon> Gmail</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row pie_pag-bot">
+                    <div class="col">
+                        <p class="parrafo-footer">Gracias por visitar mi pagina </p>
+                    </div>
+                    <div class="col">
+                        <h6 class="titulo-footer">Menu</h6>
+
+                        <div class="row nav-bar-footer">
+                            <div class="col">
+                                <a href=""><ion-icon name="home-outline"></ion-icon> Inicio</a>
+                            </div>
+                            <div class="col">
+                                <a href=""><ion-icon name="person-outline"></ion-icon> Sobre mi</a>
+                            </div>
+                            <div class="col">
+                                <a href=""><ion-icon name="code-outline"></ion-icon> Tecnologia</a>
+                            </div>
+                            <div class="col">
+                                <a href=""><ion-icon name="desktop-outline"></ion-icon> Proyectos</a>
+                            </div>
+                            <div class="col">
+                                <a href=""><ion-icon name="people-outline"></ion-icon> Contactos</a>
                             </div>
                         </div>
                     </div>
