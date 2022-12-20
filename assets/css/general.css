@@ -1,6 +1,6 @@
 .col_nav-bar{
     background-color: black;
-    max-width: 7%;
+    max-width: 10%;
 }
 
 .nav-bar{
@@ -35,7 +35,7 @@
 }
 
 .cuerpo-main h1{
-    margin-top: 15%;
+    margin-top: 5%;
     margin-left: 5%;
 }
 
@@ -47,12 +47,14 @@
 
 .img-tec{
     margin: 5%;
+    margin-top: 22%;
     max-width: 90%;
     border-radius: 15px;
 }
 
 .img-sobre-me{
     margin: 5%;
+    margin-top: 15%;
     max-width: 90%;
     border-radius: 15px;
 }
@@ -61,20 +63,22 @@
 
 .perfil-programador{
     margin: auto;
-    width: 20%;
-    margin-top: 2.5%;
-    margin-bottom: 3%;
+    width: 21%;
+    margin-top: 5%;
+    margin-bottom: 5%;
     text-align: center;
     border-radius: 15px;
     border: 1px solid gray;
 }
 
+
+
 .row_per_ac{
-    margin-top: 35%;
+    margin-top: 50%;
 }
 
 .perfil-programador h3{
-    margin-top: 20%;
+    margin-top: 30%;
 }
 
 .img_perfil_ac{

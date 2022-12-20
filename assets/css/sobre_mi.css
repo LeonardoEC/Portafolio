@@ -1,10 +1,17 @@
 .cuerpo-sobremi{
     margin-top: 2%;
     margin-left: 5%;
+    margin-right: 5%;
     margin-bottom: 2%;
 }
 
-.titulos_sobre_mi{
+.c-cartas{
+    margin: 1%;
+    border: 2px solid grey;
+    border-radius: 15px;
+}
+
+.titulo-sobremi{
     text-align: center;
     margin: 3%;
 }
