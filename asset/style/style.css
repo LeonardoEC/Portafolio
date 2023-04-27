@@ -1,0 +1,231 @@
+/*  Normalizador */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("https://yosoy.red/wp-content/uploads/2021/02/mercurio-1024x591.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*  Cuerpo de la cabecera */
+
+.container-header{
+    padding: 0.5%;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    border-radius: 0px 0px 15px 15px;
+}
+
+/*  logo - darlmode */
+
+.container-figure-header{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+/*  Navegacion */
+
+.container-nav{
+    display: flex;
+    justify-content: end;
+    width: 50%;
+    gap: 0.5%;
+    margin: 0% 0.1%;
+}
+
+.btn-nav{
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+    border-left: 1px solid grey;
+    border-right: 1px solid grey;
+    padding: 1.5% 2%;
+}
+
+.btn-nav:hover{
+    transition: 1s;
+    background-color: lightgray;
+    color: black;
+}
+
+.active{
+    background-color: lightgray;
+    color: black;
+}
+
+/* Cuerpo de la pagina */
+
+.container-main{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+/* Seccion principal */
+
+
+.container-seccion-top{
+    background-color: rgba(0, 0, 0, 0.795);
+    border-bottom: 1px solid grey;
+    border-left: 1px solid grey;
+    text-shadow: 1px 1px 1px black;
+    color: white;
+    border-radius: 0px 0px 15px 15px;
+    width: 60%;
+    text-align: center;
+    align-self: center;
+    margin-bottom: 0.5%;
+}
+
+.title-main{
+    font-size: 3rem;
+}
+
+.sub-title-main{
+    font-size: 2rem;
+}
+
+.desc-mian{
+    width: 60%;
+    margin: 2% auto;
+    font-size: 1.7rem;
+}
+
+
+
+.container-secciont{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid grey;
+    background-color: rgba(0, 0, 0, 0.795);
+    border-radius: 15px;
+}
+
+.title-main-section{
+    font-size: 3.5rem;
+    margin: 1%;
+}
+
+/* Seccion de Articulos */
+
+.body-section{
+    margin: 0.5% 2%;
+    padding: 1%;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+}
+
+/* ------------------ */
+
+.left-secction-formacion{
+    width: 80%;
+}
+
+.right-secction-formacion{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+}
+
+/* ------------------ */
+
+/* ------------------ */
+
+.left-secction-projectos{
+
+    width: 20%;
+    display: flex;
+    justify-content: center;
+}
+
+.right-secction-projectos{
+    width: 70%;
+}
+
+/* ------------------ */
+
+.title-section{
+    font-size: 2.3rem;
+    margin-bottom: 2%;
+}
+
+.desc-section{
+    font-size: 1.5rem;
+}
+
+.img-section{
+    width: 80%;
+    opacity: 0.7;
+}
+
+.img-section:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+
+/* footer */ 
+
+.container-footer{
+    border-radius: 15px 15px 0px 0px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.5%;
+    padding: 1%;
+    color: white;
+    background-color: black;
+}
+
+.icon-footer{
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+    margin: 0.5% 0%;
+}
+
+.icon{
+    justify-content: space-around;
+    width: 3%;
+    opacity: 0.7;
+}
+
+/* Responsive */
+
+@media screen and (min-width: 180px) and (max-width: 540px){
+    .container-header{
+        flex-direction: column;
+    }
+
+    .container-figure-header{
+        justify-content: center;
+        width: 100%;
+    }
+
+    .container-nav{
+        margin: 2% 0%;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+    }
+    .btn-nav{
+        text-align: center;
+        width: 50%;
+        margin: 1.5% 0%;
+    }
+
+}

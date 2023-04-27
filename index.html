@@ -1,195 +1,83 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Portafolio</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/css/general.css">
-    <title>Portafolio</title>
-  </head>
-  <body>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="asset/style/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="container-header">
+        <figure class="container-figure-header">
+            <img src="" alt="darkmode-logo">
+        </figure>
+        <nav class="container-nav">
+            <a class="btn-nav active" href="">Inicio</a>
+            <a class="btn-nav" href="">Formacion</a>
+            <a class="btn-nav" href="">Projectos</a>
+            <a class="btn-nav" href="">Contacto</a>
+        </nav>
+    </header>
+    <main class="container-main">
 
-    <div class="contaioner-fluid">
-        <div class="row">
-            <div class="col-2 col_nav-bar">
-                <nav class="nav-bar">
-                    <div class="row rw_nav-bar">
-                        <a href="index.html"><ion-icon name="home-outline"></ion-icon> Inicio</a>
-                    </div>
-                    <div class="row rw_nav-bar">
-                        <a href="pages/sobre_me/sobre_me.html"><ion-icon name="person-outline"></ion-icon> Sobre mi</a>
-                    </div>
-                    <div class="row rw_nav-bar">
-                        <a href="pages/tecnologia/tecnologia.html"><ion-icon name="code-outline"></ion-icon> Tecnologia</a>
-                    </div>
-                    <div class="row rw_nav-bar">
-                        <a href="pages/projecto/projecto.html"><ion-icon name="desktop-outline"></ion-icon> Projectos</a>
-                    </div>
-                    <!--
-                    <div class="row rw_nav-bar">
-                        <a href="pages/contacto/contacto.html"><ion-icon name="people-outline"></ion-icon> Contactos</a>
-                    </div>
-                    -->
-                </nav>
+        <section class="container-seccion-top">
+            <h2 class="title-main">Bienvenido</h2>
+            <p class="desc-mian">
+                Saludos y bienvenido a mi portafolio, Soy un estudiante de Desarrollo web y 
+                aplicaciones móviles, estoy en búsqueda de un puesto de trabajo como programador 
+                para mejorar mis conocimientos, habilidades y obtener mas experiencia en el sector IT 
+            </p>
+        </section>
+
+        <section class="container-secciont">
+            <h1 class="title-main-section">Leonardo Vivas</h1>
+
+            <div class="body-section">
+                <section class="left-secction-formacion">
+                    <h2 class="title-section">Mi formacion</h2>
+                    <p class="desc-section">
+                        Soy estudiante del ISPC y ademas autodidacta.
+                        Te invito a que conoscas mas sobre mi formacion academica en esta seccion haciendo
+                        <a href="">click aqui</a> o en la imagen
+                    </p>
+                </section>
+                <figure class="right-secction-formacion">
+                    <img class="img-section" src="asset/img/books.png" alt="logo">
+                </figure>
             </div>
 
-            <!--Banner-->
-            <div class="col">
-                <div class="contaioner-fluid">
-                    <header>
-                        <div class="row cuerpo-principal">
-                            <div class="col">
-                                <h1 class="titulo-principal">Leonardo Vivas</h1>
-                            </div>
-                        </div>
-                        <div class="row cuerpo-principal">
-                            <div class="col">
-                                <h3 class="titulo-secundario">Portafolio</h3>
-                            </div>
-                        </div>
-                    </header>
-
-                    <!--Cuerpo-->
-                    <main>
-                        <section>
-                            <div class="row">
-                                <div class="col-9">
-                                    <article>
-                                        <div class="row cuerpo-main">
-                                            <div class="col-6">
-                                                <h1>Sobre mi</h1>
-                                                <p>
-                                                    En esta seccion podras conocer un poco mas sobre mi, mis experiencias, mi formacion academica, mis metas y proyectos en los cuales me encuentro trabajando.
-                                                    Ademas aqui tambien relato sobre las formaciones y cursos que estoy tomando para mejorar mis habilidades.
-                                                </p>
-                                            </div>
-                                            <div class="col-6">
-                                                <img class="img-sobre-me" src="assets/img/sobre_mi.jpg" alt="sobremi">
-                                            </div>
-                                        </div>
-                                        <div class="row cuerpo-main">
-                                            <div class="col-6">
-                                                <img class="img-tec" src="assets/img/tecnologias.png" alt="tecnolgia">
-                                            </div>
-                                            <div class="col-6">
-                                                <h1>Tecnolgia</h1>
-                                                <p>
-                                                    Aqui te contare sobre todoas las tecnolias que ulizilo, para que y cuales estoy incorporando.
-                                                    Genealmente me encuentro estudiando todos los dias, tratando de dominar los 5 lenguajes que mas me interesan,
-                                                    los cual son, Python, JavaScript (TypeScript), C (C#,C++), Java y PHP, ademas recientemente eh agregado a mi repertorio
-                                                    GDScript, el cual es un leguaje muy parecido a Python que se utiliza en GodotEngine para realizar videojuegos
-                                                </p>
-                                            </div>
-                                        </div>
-                                        <div class="row cuerpo-main">
-                                            <div class="col-6">
-                                                <h1>Proyectos</h1>
-                                                <p>
-                                                    Conoce mis proyectos, los ya terminaos y los que aun estan en proceso.
-                                                    Mi mayor pasion son los videojuegos y es por ello que estoy enfocando mi desarrollo
-                                                    como programador a esa area, creando juegos simples y basicos. Tambien me dedico al desarrollo web
-                                                    y si bien mis diseños son algo basicos, van mejorando de a poco
-                                                </p>
-                                            </div>
-                                            <div class="col-6">
-                                                <img class="img-tec" src="assets/img/programming.png" alt="proyectos">
-                                            </div>
-                                        </div>
-                                    </article>
-                                </div>
-    
-    
-                                <div class="col-2 perfil-programador">
-                                    <aside>
-                                        <div class="row">
-                                            <div class="col">
-                                                <h3>Perfiles de programador</h3>
-                                            </div>
-                                        </div>
-                                        <div class="row row_per_ac">      
-                                            <a href="https://github.com/LeonardoEC"><img class="img_perfil_ac-git" src="assets/img/github.png" alt="Sololearn"></a>
-                                        </div>
-                                        <div class="row row_per_ac">
-                                            <a href="https://www.sololearn.com/profile/14622607"><img class="img_perfil_ac" src="assets/img/SoloLearn_logo.svg.png" alt="Sololearn"></a>
-                                        </div>
-                                        <div class="row row_per_ac">
-                                            <a href="https://www.freecodecamp.org/espanol/LeonardoDVivas"><img class="img_perfil_ac" src="assets/img/FreeCodeCamp_logo.svg.png" alt="FreeCodeCamp"></a>
-                                        </div>
-                                        <div class="row row_per_ac">
-                                            <a href="https://leetcode.com/leonardoa173/"><img class="img_perfil_ac" src="assets/img/LeetCode_Logo_black_with_text.svg.png" alt="LeetCode"></a>
-                                        </div>
-                                        <div class="row row_per_ac">
-                                            <a href="https://www.hackerrank.com/leonardoa173"><img class="img_perfil_ac" src="assets/img/hackerrank.png" alt="HackerRank"></a>
-                                        </div>
-                                    </aside>
-                                </div>
-                            </div>
-                        </section>
-                    </main>
-
-                </div>
+            <div class="body-section">
+                <figure class="left-secction-projectos">
+                    <img class="img-section" src="asset/img/projectos.png" alt="projectos">
+                </figure>
+                <section class="right-secction-projectos">
+                    <h2 class="title-section">Mis projectos</h2>
+                    <p class="desc-section">
+                        Siempre hay que acompañar la teorica con buenas practicas,
+                        ven a conocer algunos de mis projectos en esta seccion haciendo
+                        <a href="">click aqui</a> o en la imagen
+                    </p>
+                </section>
             </div>
-        </div>
+        </section>
+    </main>
 
-        
-        <div class="row">
-            <footer>
-                <div class="row pie_pag-top">
-                    <div class="col">
-                        <img src="" alt="logo">
-                    </div>
-                    <div class="col">
-                        <div class="row">
-                            <h6 class="titulo-footer">Contacto</h6>
-                        </div>
-                        <div class="row nav-bar-footer">
-                            <div class="col">
-                                <a href=""><ion-icon name="logo-linkedin"></ion-icon> Linkedin</a>
-                            </div>
-                            <div class="col">
-                                <a href=""><ion-icon name="logo-github"></ion-icon> GitHub</a>
-                            </div>
-                            <div class="col">
-                                <a href=""><ion-icon name="mail-outline"></ion-icon> Gmail</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row pie_pag-bot">
-                    <div class="col">
-                        <p class="parrafo-footer">Gracias por visitar mi pagina </p>
-                    </div>
-                    <div class="col">
-                        <h6 class="titulo-footer">Menu</h6>
-
-                        <div class="row nav-bar-footer">
-                            <div class="col">
-                                <a href=""><ion-icon name="home-outline"></ion-icon> Inicio</a>
-                            </div>
-                            <div class="col">
-                                <a href=""><ion-icon name="person-outline"></ion-icon> Sobre mi</a>
-                            </div>
-                            <div class="col">
-                                <a href=""><ion-icon name="code-outline"></ion-icon> Tecnologia</a>
-                            </div>
-                            <div class="col">
-                                <a href=""><ion-icon name="desktop-outline"></ion-icon> Proyectos</a>
-                            </div>
-                            <div class="col">
-                                <a href=""><ion-icon name="people-outline"></ion-icon> Contactos</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </footer>
-        </div>
-    </div>
-
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-  </body>
+    <footer class="container-footer">
+        <h3>Gracias por visitar mi portafolio</h3>
+        <p>Sigueme en Linkedin, descargar mi Currilum o enviame un Correo electronico</p>
+        <figure class="icon-footer">
+            <img class="icon" src="asset/icon/icons8-linkedin-100.png" alt="">
+            <img class="icon" src="asset/icon/icons8-alinear-la-célula-contenido-izquierda-100.png" alt="">
+            <img class="icon" src="asset/icon/icons8-gmail-100.png" alt="">
+        </figure>
+        <p>
+            Portafolio V.0.0.1
+        </p>
+        <a href="">GitHub</a>
+    </footer>
+</body>
 </html>
+
+
+
