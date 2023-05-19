@@ -7,18 +7,22 @@
 }
 
 body{
-    background-image: url("https://yosoy.red/wp-content/uploads/2021/02/mercurio-1024x591.png");
+    /* background-image: url("https://yosoy.red/wp-content/uploads/2021/02/mercurio-1024x591.png");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100%; */
+    background: rgb(0,0,0);
+    background: linear-gradient(160deg, rgba(0,0,0,1) 0%, rgba(0,113,189,1) 50%, rgba(0,0,0,1) 100%); 
+    /* background-image: linear-gradient(to right top, #000000, #261a21, #422f42, #57476c, #5f659a, #5f659a, #5f659a, #5f659a, #57476c, #422f42, #261a21, #000000); */
+    /* background-image: linear-gradient(to right bottom, #000536, #072052, #183870, #26528f, #346dae, #346dae, #346dae, #346dae, #26528f, #183870, #072052, #000536); */
 }
 
 /*  Cuerpo de la cabecera */
 
 .container-header{
-    padding: 0.5%;
+    padding: 1%;
     display: flex;
     justify-content: space-between;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.708);
     border-radius: 0px 0px 15px 15px;
 }
 
@@ -37,7 +41,7 @@ body{
     display: flex;
     justify-content: end;
     width: 50%;
-    gap: 0.5%;
+    gap: 1%;
     margin: 0% 0.1%;
 }
 
@@ -64,10 +68,8 @@ body{
 /* Cuerpo de la pagina */
 
 .container-main{
-    margin: auto;
     display: flex;
-    flex-direction: column;
-    width: 80%;
+    justify-content: space-around;
 }
 
 /* Seccion principal */
@@ -79,15 +81,18 @@ body{
     border-left: 1px solid grey;
     text-shadow: 1px 1px 1px black;
     color: white;
-    border-radius: 0px 0px 15px 15px;
-    width: 60%;
+    border-radius: 15px;
+    width: 30%;
     text-align: center;
     align-self: center;
-    margin-bottom: 0.5%;
+    margin: 3%;
+    padding: 2%;
+    box-shadow: 15px 15px 15px black;
 }
 
 .title-main{
     font-size: 3rem;
+    word-wrap: break-word;
 }
 
 .sub-title-main{
@@ -95,14 +100,16 @@ body{
 }
 
 .desc-mian{
-    width: 60%;
-    margin: 2% auto;
+    width: 90%;
+    margin: 10% auto;
     font-size: 1.7rem;
 }
 
 
 
 .container-secciont{
+    margin: 1%;
+    padding: 2%;
     color: white;
     display: flex;
     flex-direction: column;
@@ -111,23 +118,30 @@ body{
     border: 1px solid grey;
     background-color: rgba(0, 0, 0, 0.795);
     border-radius: 15px;
+    box-shadow: 10px 15px 10px black;
 }
 
 .title-main-section{
-    font-size: 3.5rem;
-    margin: 1%;
+    text-align: center;
+    font-size: 4rem;
 }
 
 /* Seccion de Articulos */
 
 .body-section{
-    margin: 0.5% 2%;
+    margin: 2%;
     padding: 1%;
-    border-radius: 15px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 95%;
+}
+
+.body-section-end{
+    margin: 1%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
 }
 
 /* ------------------ */
@@ -147,7 +161,6 @@ body{
 /* ------------------ */
 
 .left-secction-projectos{
-
     width: 20%;
     display: flex;
     justify-content: center;
@@ -159,9 +172,18 @@ body{
 
 /* ------------------ */
 
+
+/* ------------------ */
+
 .title-section{
     font-size: 2.3rem;
     margin-bottom: 2%;
+}
+
+.title-section-center{
+    text-align: center;
+    font-size: 2.3rem;
+    margin: 2% 0%;
 }
 
 .desc-section{
@@ -178,6 +200,22 @@ body{
     cursor: pointer;
 }
 
+.icon-contact{
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+    margin: 2% 0% 0% 0%;
+}
+
+.icon{
+    width: 7%;
+    opacity: 0.5;
+}
+
+.icon:hover{
+    opacity: 1;
+}
+
 /* footer */ 
 
 .container-footer{
@@ -188,21 +226,12 @@ body{
     margin-top: 0.5%;
     padding: 1%;
     color: white;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.708);
 }
 
-.icon-footer{
-    display: flex;
-    justify-content: center;
-    gap: 2%;
-    margin: 0.5% 0%;
-}
 
-.icon{
-    justify-content: space-around;
-    width: 3%;
-    opacity: 0.7;
-}
+
+
 
 /* Responsive */
 
@@ -227,5 +256,91 @@ body{
         width: 50%;
         margin: 1.5% 0%;
     }
+}
 
+/* Formacion */
+
+.container-secciont-lang{
+    margin: 1%;
+    padding: 2%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid grey;
+    background-color: rgba(0, 0, 0, 0.795);
+    border-radius: 15px;
+    box-shadow: 10px 15px 10px black;
+}
+
+
+
+.desc-lang{
+    font-size: 1.5rem;
+    margin: 1% auto;
+    text-align: center;
+    width: 80%;
+}
+
+.cont-card-lang{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card-lang{
+    margin: 1%;
+    border: 2px solid grey;
+    border-radius: 0px 30px;
+    width: 25rem;
+    height: 28rem;
+    box-shadow: 10px 15px 10px black;
+}
+
+.title-card-lang{
+    font-style: italic;
+    text-align: center;
+    margin: 4% 0% 2% 0%;
+    font-size: 2.5rem;
+}
+
+.desc-card-lang{
+    padding: 5%;
+    margin: 2% 0%;
+    font-size: 1.5rem;
+}
+
+.card-lang-center{
+    height: 60%;
+}
+
+.card-lang-bot{
+    margin: 5% 0%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.git-icon{
+    width: 4rem;
+}
+
+.git-icon:hover{
+    cursor: pointer;
+    transition: 1s;
+    transform: scale(1.2,1.2);
+}
+
+.btn-lang{
+    border: none;
+    border-radius: 15px 0px;
+    padding: 2% 5%;
+}
+
+.btn-lang:hover{
+    cursor: pointer;
+    transition: 1s;
+    transform: scale(1.1,1.1);
 }
