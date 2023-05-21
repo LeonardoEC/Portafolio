@@ -1,0 +1,248 @@
+/* Cuerpo de la pagina */
+
+.container-main{
+    display: flex;
+    justify-content: space-around;
+}
+/*  -------------------------------------------------- */
+/* Seccion Introduccion */
+
+
+.container-seccion-intro{
+    background-color: rgba(0, 0, 0, 0.795);
+    border-bottom: 1px solid grey;
+    border-left: 1px solid grey;
+    text-shadow: 1px 1px 1px black;
+    color: white;
+    border-radius: 15px;
+    width: 30%;
+    text-align: center;
+    align-self: center;
+    margin: 3% 1%;
+    padding: 2%;
+    box-shadow: 15px 15px 15px black;
+}
+
+.title-intro{
+    font-size: 3rem;
+    word-wrap: break-word;
+}
+
+.desc-intro{
+    width: 90%;
+    margin: 10% auto;
+    font-size: 1.7rem;
+}
+/*  -------------------------------------------------- */
+/* Seccion principal */
+
+.container-secciont-ini{
+    margin: 1.5% 1%;
+    padding: 2%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid grey;
+    background-color: rgba(0, 0, 0, 0.795);
+    border-radius: 15px;
+    box-shadow: 10px 15px 10px black;
+}
+
+.title-init-section{
+    text-align: center;
+    font-size: 4rem;
+}
+/*  -------------------------------------------------- */
+/* Seccion de top */
+
+.body-init-section-top{
+    padding: 1%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+}
+
+.left-secction-top{
+    width: 80%;
+}
+
+.right-secction-top{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*  ------------------ */
+/* Seccion de center */
+
+.body-section-center{
+    padding: 1%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+}
+
+.left-secction-center{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+}
+
+.right-secction-center{
+    text-align: end;
+    width: 80%;
+}
+
+/*  ------------------ */
+
+.body-section-end{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.title-section-end{
+    margin-bottom: 2%;
+    text-align: center;
+    font-size: 2.3rem;
+}
+
+.desc-section-end{
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.icon-contact{
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+    margin-top: 2%;
+}
+
+.icon{
+    width: 5rem;
+    opacity: 0.5;
+}
+
+.icon:hover{
+    opacity: 1;
+}
+
+/* ------------------ */
+
+
+/* Generales */
+
+.title-section{
+    font-size: 2.3rem;
+    margin-bottom: 2%;
+}
+
+.desc-section{
+    font-size: 1.5rem;
+}
+
+.img-section{
+    width: 80%;
+    opacity: 0.7;
+}
+
+.img-section:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+
+/* ------------------ */
+
+/* Responsive */
+
+@media screen and (min-width: 180px) and (max-width: 1180px){
+
+    /* Cuerpo de la pagina */
+    .container-main{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* Seccion Introduccion */
+    .container-seccion-intro{
+        width: 90%;
+    }
+    
+
+    /* Seccion principal */
+
+    .container-secciont-ini{
+        margin: 4% auto;
+    }
+
+    /* Seccion top */
+
+    .body-init-section-top{
+        text-align: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    
+    .left-secction-top{
+        width: 100%;
+        margin: 1%;
+    }
+
+    .title-section{
+        margin: 5%;
+    }
+
+    .right-secction-top{
+        margin: 5% auto;
+    }
+
+    .img-section{
+        margin: 2rem;
+        width: 10rem;
+    }
+
+    /* Seccion center */
+
+    .body-section-center{
+        margin: 2% auto;
+        flex-direction: column-reverse;
+    }
+
+
+    .right-secction-center{
+        width: 100%;
+        text-align: center;
+    }
+
+
+    /* Seccion end */
+    .title-section-end{
+        margin: 5% auto;
+    }
+    .icon-contact{
+        margin: 5% auto;
+    }
+
+
+
+}
+
+
+/* Perdidos
+
+.sub-title-main{
+    font-size: 2rem;
+}
+
+
+*/
