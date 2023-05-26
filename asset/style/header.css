@@ -34,7 +34,7 @@
 .container-nav{
     display: flex;
     justify-content: end;
-    width: 50%;
+    align-items: center;
     gap: 1%;
     margin: 0% 0.1%;
 }
@@ -42,13 +42,12 @@
 .btn-nav{
     text-align: center;
     width: 10rem;
-    height: auto;
     text-decoration: none;
     color: white;
     border-radius: 10px;
     border-left: 1px solid grey;
     border-right: 1px solid grey;
-    padding: 1.5% 2%;
+    padding: 1rem;
 }
 
 .btn-nav:hover{
@@ -66,7 +65,7 @@
 
 /* Responsive */
 
-@media screen and (min-width: 180px) and (max-width: 1180px){
+@media screen and (min-width: 180px) and (max-width: 1280px){
     .container-header{
         flex-direction: column-reverse;
     }
