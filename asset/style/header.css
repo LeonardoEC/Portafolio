@@ -6,6 +6,8 @@
     justify-content: space-between;
     background-color: rgba(0, 0, 0, 0.708);
     border-radius: 0px 0px 15px 15px;
+    height: 5rem;
+    width: 100%;
 }   
 
 /*  -------------------------------------------------- */
@@ -16,12 +18,9 @@
     width: 50%;
     display: flex;
     align-items: center;
-    color: white;
 }
 
-.icon-dm{
-    width: 5%;
-}
+
 
 .icon-dm:hover{
     cursor: pointer;
@@ -68,6 +67,7 @@
 @media screen and (min-width: 180px) and (max-width: 1280px){
     .container-header{
         flex-direction: column-reverse;
+        height: auto;
     }
 
     .container-figure-header{
@@ -87,10 +87,6 @@
         width: 80%;
         text-align: center;
         margin: 1.5% 0%;
-    }
-
-    .icon-dm{
-        width: 2.5rem;
     }
 
 }

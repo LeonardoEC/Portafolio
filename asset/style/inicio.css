@@ -2,7 +2,6 @@
 
 .container-main{
     display: flex;
-    justify-content: space-around;
 }
 /*  -------------------------------------------------- */
 /* Seccion Introduccion */
@@ -58,6 +57,7 @@
 /* Seccion de top */
 
 .body-init-section-top{
+    margin: 3%;
     padding: 1%;
     display: flex;
     justify-content: space-between;
@@ -79,6 +79,7 @@
 /* Seccion de center */
 
 .body-section-center{
+    margin: 3%;
     padding: 1%;
     display: flex;
     justify-content: space-between;
@@ -100,6 +101,7 @@
 /*  ------------------ */
 
 .body-section-end{
+    margin: 3%;
     width: 90%;
     display: flex;
     flex-direction: column;
@@ -174,7 +176,8 @@
 
     /* Seccion Introduccion */
     .container-seccion-intro{
-        width: 90%;
+        width: 85%;
+        margin: 5% auto;
     }
     
 
@@ -230,6 +233,7 @@
         margin: 5% auto;
     }
     .icon-contact{
+        
         margin: 5% auto;
     }
 
