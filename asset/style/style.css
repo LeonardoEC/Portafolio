@@ -1,0 +1,19 @@
+/*  Normalizador */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    /* background-image: url("https://yosoy.red/wp-content/uploads/2021/02/mercurio-1024x591.png");
+    background-repeat: no-repeat;
+    background-size: 100%; */
+    background: rgb(0,0,0);
+    background: linear-gradient(160deg, rgba(0,0,0,1) 0%, rgba(0,113,189,1) 50%, rgba(0,0,0,1) 100%); 
+    /* background-image: linear-gradient(to right top, #000000, #261a21, #422f42, #57476c, #5f659a, #5f659a, #5f659a, #5f659a, #57476c, #422f42, #261a21, #000000); */
+    /* background-image: linear-gradient(to right bottom, #000536, #072052, #183870, #26528f, #346dae, #346dae, #346dae, #346dae, #26528f, #183870, #072052, #000536); */
+}
