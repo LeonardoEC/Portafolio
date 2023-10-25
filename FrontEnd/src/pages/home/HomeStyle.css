@@ -1,0 +1,78 @@
+/* Configuracion globar para la pagina */
+.contMainHome{
+    display: flex;
+    color: white;
+    border: 2px solid yellow;
+    flex-direction: column;
+    gap: 25px;
+}
+
+/* Configuracion del titulo */
+
+.contTitle{
+    text-align: center;
+    padding: 1%;
+    border-radius: 15px;
+    font-size: 2rem;
+    /* border: 1px solid rgb(255, 0, 0); */
+}
+
+/* Contenedor general del cuerpo */
+
+.bodyHome{
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid green; */
+    align-self: center;
+    width: 75%;
+    gap: 25px;
+}
+
+/* ------------------------------- */
+
+/* Cartas */
+
+.contCardsHome{
+    padding: 1%;
+    background-color: rgba(0, 0, 0, 0.407);
+    border-radius: 15px;
+}
+
+/* ------------------------------- */
+
+
+.contTitleSecction{
+    text-align: center;
+    padding: 1%;
+}
+
+/* ---------------------------------- */
+
+.contProyectIntro{
+    display: flex;
+    gap: 50px;
+}
+
+/* ---------------------------------- */
+
+.bodyHerramientas{
+    display: flex;
+    gap: 50px;
+    justify-content: space-around;
+    text-align: center;
+}
+
+/* Configuraciones generales */
+/* Texto */
+
+.TitleMainHome{
+    font-size: 2.5rem;
+}
+.subTitleMainHome{
+    font-size: 2rem;
+    padding: 1%;
+}
+
+.textMainHome{
+    font-size: 1.5rem;
+}
