@@ -1,0 +1,17 @@
+.contWelcome{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+    word-wrap: break-word;
+}
+
+.titleWelcome{
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.txtWelcome{
+    font-size: 1.3rem;
+    text-align: center;
+}

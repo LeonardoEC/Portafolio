@@ -1,0 +1,114 @@
+.bodyAboutUs {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    background-image: linear-gradient(160deg, #ffe056 0, #ffce46 16.67%, #ffb62e 33.33%, #f29700 50%, #e47700 66.67%, #dc5b00 83.33%, #d94300 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-image: url(https://images2.alphacoders.com/111/1114362.png); */
+}
+
+.containerAboutUs {
+    margin-bottom: 1%;
+    width: 85%;
+    background-color: #232323f0;
+    color: white;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    box-shadow: 1px 13px 40px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 1px 13px 40px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 1px 13px 40px 0px rgba(0, 0, 0, 0.75);
+}
+
+
+.bannerAbaoutUs {
+    width: 100%;
+    height: 350px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.headerAboutUS {
+    display: flex;
+    justify-content: space-between;
+}
+
+.personalAboutUs {
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.personalInfo{
+
+    border: 2px solid green;
+}
+
+.nameAbaoutUS {
+    text-align: center;
+    font-size: 3rem;
+}
+
+.subtitleAbautUS {
+    font-size: 2rem;
+    padding: 2% 0%;
+}
+
+.descripAbautUS {
+    font-size: 1.2rem;
+}
+
+.contPhoto {
+    display: flex;
+    position: relative;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.imgPhoto {
+    width: 10rem;
+    border: 2px solid black;
+    border-radius: 50%;
+    position: relative;
+}
+
+.socialAboutUs {
+    border: 2px solid green;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.cardAboutUs1 {
+    border-radius: 15px;
+    padding: 1%;
+}
+
+.cardContTitle {
+    text-align: center;
+    font-size: 1.5rem;
+    background-color: rgba(128, 128, 128, 0.129);
+}
+
+.cardContHis {
+    padding: 1%;
+    font-size: 1.5rem;
+    text-align: justify;
+}
+
+.cardAboutUs2 {
+    padding: 1%;
+}
+
+.cardContLM {
+    padding: 1% 0%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.logoIMG {
+    width: 8rem;
+}

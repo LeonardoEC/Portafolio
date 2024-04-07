@@ -6,11 +6,9 @@ import '../footer/FooterStyle.css'
 
 const Footer = () => {
     return (
-        <>
-        <div className='contFooter'>
-            Develop | Leonardo Vivas | Linkedin - Git
+        <div className='textFooter'>
+            Leonardo Vivas | Develop | <a className='footNav' href="">Linkedin</a>
         </div>
-        </>
     )
 }
 

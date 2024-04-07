@@ -1,0 +1,96 @@
+.BodyIntro {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.titleIntro {
+    font-size: 2.5rem;
+}
+
+.titleIntroCenter {
+    text-align: end;
+}
+
+.constSect {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    border-radius: 15px;
+    border: 2px solid black;
+    padding: 1%;
+    background-color: #393939d7;
+    -webkit-box-shadow: inset 0px 0px 40px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: inset 0px 0px 40px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: inset 0px 0px 40px 0px rgba(0, 0, 0, 0.75);
+}
+
+.constSect:hover {
+    transition: 1s;
+    transform: scale(1.02, 1.02);
+    -webkit-box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.75);
+    background-color: #ffffff69;
+    color: black;
+}
+
+
+.contArt {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5%;
+    font-size: 1.5rem;
+}
+
+.contArtCenter{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5%;
+    font-size: 1.5rem;
+}
+
+.contSecImg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.imgIntro{
+    width: 100px;
+    opacity: 0.5;
+}
+
+.imgIntro:hover{
+    opacity: 1;
+}
+
+@media screen and (max-width: 540px) and (min-width: 180px) {
+    
+    .BodyIntro{
+        gap: 15px;
+    }
+
+    .constSect{
+        gap: 10px;
+        text-align: center;
+    }
+    
+    .contArt{
+        flex-direction: column;
+    }
+
+    .contArtCenter{
+        flex-direction: column-reverse;
+    }
+
+    .titleIntroCenter{
+        text-align: center;
+    }
+
+
+}

@@ -1,12 +1,9 @@
+
+
 .appi {
     display: flex;
     flex-direction: column;
     height: 100vh;
-    /* background-image: url(https://initiate.alphacoders.com/images/131/stretched-3840-2160-1318817.jpg?556); */
-    background-image: url(https://images2.alphacoders.com/692/692166.jpg);
-    background-image: url(https://images3.alphacoders.com/929/929912.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
 }
 
 .main{
@@ -14,15 +11,27 @@
     flex-grow: 1;
 }
 
+.header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    background-color: #232323f0;
+}
+
 .nav{
-    position: fixed;
-    bottom: 50%;
+    width: 50vw;
+}
+
+.btnShowMenu{
+    background-color: rgba(35, 35, 35, 0.224);
+    display: flex;
+    justify-content: center;
 }
 
 .outlet{
-    /* border: 2px solid brown; */
     width: 100%;
-    padding: 1.5%;
+    color: white;
 }
 
 

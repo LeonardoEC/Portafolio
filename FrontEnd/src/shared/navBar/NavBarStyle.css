@@ -1,61 +1,19 @@
 .contNavBar{
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 15% 0%;
-}
-
-.showMenu{
-
-    position: relative;
-    top: 160px;
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: rgba(80, 80, 213, 0.3);
-    border-radius: 0% 15px 15px 0%;
-    width: 15rem;
-    padding: 10%;
-    gap: 10px;
-}
-.btn-showmenu {
-    color: white;
-    margin-top: 15%;
-    background-color: rgba(80, 80, 213, 0.149);
-    border-radius: 0% 20% 20% 0%;
-    padding: 10% 10%;
-    border: none;
-    cursor: pointer;
+    justify-content: end;
+    gap: 15px;
+    padding: 1% 2%;
 }
 
 .btnNav{
-    margin-left: 10%;
     text-decoration: none;
-    width: 10rem;
-    border: 5px double grey;
+    padding: 1.5% 3.5%;
+    background-image: url(https://img.freepik.com/premium-vector/seamless-pattern-wooden-boards-vector-illustration_630763-140.jpg?size=626&ext=jpg&ga=GA1.1.386372595.1697587200&semt=ais);
+    border-radius: 5px;
     color: white;
-    text-align: center;
-    align-items: center;
-    vertical-align: middle;
-}
 
+}
 .btnNav:hover{
     transition: 1s;
-    background-color: blue;
-}
-
-.btn-showmenu-closet{
-    color: white;
-    background-color: rgba(80, 80, 213, 0.3);
-    border-radius: 0% 50% 50% 0%;
-
-    border: none;
-    padding: 5%;
-    margin: auto;
-    text-align: center;
-    vertical-align: middle;
-    position: relative;
-    left: 100%;
-    top: 45px;
+    transform: scale(1.1,1.1);
 }

@@ -1,8 +1,6 @@
-.contHeader{
+.titleHeader{
+    padding: 0% 0.5%;
     color: white;
-    display: flex;
-    justify-content: space-between;
-    padding: 10px;
-    background-color: rgba(0, 0, 0, 0.281);
+    font-style: italic;
+    font-size: 3rem;
 }
-

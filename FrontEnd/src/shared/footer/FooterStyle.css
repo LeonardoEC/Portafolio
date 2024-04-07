@@ -1,5 +1,16 @@
-.contFooter{
+.textFooter{
     text-align: center;
+    /* background-image: url(https://bepxl.files.wordpress.com/2020/03/ladrillos.png?w=1200); */
     color: white;
-    background-color: rgba(0, 0, 0, 0.281);
+    background-color: rgb(35, 35, 35);
+    font-size: 1.5rem;
+}
+
+.footNav{
+    color: white;
+    text-decoration: none;
+}
+
+.footNav:hover{
+    color: orange;
 }

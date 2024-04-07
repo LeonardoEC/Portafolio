@@ -1,0 +1,58 @@
+.body_Carousel {
+    display: flex;
+    width: 80vw;
+    padding: 0.5%;
+    gap: 10px;
+    color: white;
+}
+
+.cont_Carrousel {
+    border-radius: 15px;
+    display: inherit;
+    flex-direction: column;
+    padding: 1%;
+    width: 100%;
+    gap: 1rem;
+    box-shadow: 2px 3px 36px -3px rgba(0, 0, 0, 0.75) inset;
+    -webkit-box-shadow: 2px 3px 36px -3px rgba(0, 0, 0, 0.75) inset;
+    -moz-box-shadow: 2px 3px 36px -3px rgba(0, 0, 0, 0.75) inset;
+}
+
+.btn_next {
+    color: white;
+    background-color: rgba(0, 0, 255, 0);
+    font-size: 5rem;
+    border-radius: 0px 15px 15px 0px;
+}
+
+.btn_previous {
+    font-size: 5rem;
+    background-color: rgba(0, 0, 255, 0);
+    color: white;
+    border-radius: 15px 0px 0px 15px;
+}
+
+.card_tect {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.title_tec {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.cont_img_tec {
+    display: flex;
+    gap: 1rem;
+}
+
+.btnTec {
+    background-color: #232323f0;
+    color: white;
+    border-radius: 15px;
+    text-decoration: none;
+    padding: 1%;
+    margin: auto;
+}
