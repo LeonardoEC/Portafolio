@@ -4,17 +4,26 @@
 }
 
 .cont-foto{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
     border-radius: 15px;
     border: 2px solid grey;
     padding: 1%;
     margin: 1.5% 1%;
     background-color: rgba(0, 0, 0, 0.795);
     box-shadow: 10px 15px 10px black;
+    width: 35%;
+}
+
+.const-img{
+    margin: 1% auto;
 }
 
 .foto{
-    margin: 30% auto;
-    width: 30rem;
+    width: 350px;
+    height: 350px;
+    margin: 1% auto;
     border-radius: 15px;
 }
 
@@ -25,6 +34,7 @@
     padding: 2%;
     background-color: rgba(0, 0, 0, 0.795);
     box-shadow: 10px 15px 10px black;
+    width: 75%;
 }
 
 .title-sm{
@@ -38,29 +48,59 @@
     margin: 2% 0%;
     color: white;
     font-size: 1.7rem;
+    text-align: justify;
 }
 
 .cont-medalla{
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .medalla{
-    width: 5rem;
+    transition: 1s;
+    width: 8rem;
+    opacity: 0.7;
+}
+
+.medalla:hover{
+    transition: 1s;
+    opacity: 1;
 }
 
 .cont-icon-std{
+    margin: 2% 0%;
     display:flex;
     justify-content: space-evenly;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .icon-std{
-    width: 5rem;
+    width: 13rem;
+    height: 10rem;
+}
+
+.anchor{
+    transition: 1s;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.anchor:hover{
+    transition: 1s;
+    color: rgba(0,113,189,1);
+    background-color: white !important;
+    padding: 0.5% 0.5%;
+    margin: 0.3% 0;
+    border-radius: 15px;
 }
 
 .cont-contc{
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
 }
 
@@ -80,6 +120,28 @@
     height: 10rem;
 }
 
+.cel-cont-contc{
+    display: none;
+}
+
+.icon-contact{
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    margin-top: 2%;
+}
+
+.icon{
+    width: 5rem;
+    opacity: 0.5;
+}
+
+.icon:hover{
+    transition: 1s;
+    opacity: 1;
+    cursor: pointer;
+}
+
 @media screen and (min-width: 180px) and (max-width: 1180px){
 
     .cont-foto{
@@ -87,15 +149,42 @@
     }
 
     .cont-foto-cel{
-        display: block;
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin: 1% auto;
+    }
+
+    .cel-foto{
+        margin: 5% auto;
     }
 
     .cont-info-sm{
-        margin: 2% 0%;
+        margin: 2% auto;
+        width: 95%;
     }
 
     .desc-sm{
         text-align: center;
+    }
+
+    .cel-cont-contc{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .icon-contact{
+        margin: 5% auto;
+        flex-wrap: wrap;
+    }
+
+    .cont-icon-std{
+        gap: 10px;
+        margin: 2% auto;
     }
 
 }

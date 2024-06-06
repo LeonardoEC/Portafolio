@@ -3,6 +3,22 @@
 .container-main{
     display: flex;
 }
+
+.anchor{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.anchor:hover{
+    transition: 1s;
+    color: rgba(0,113,189,1);
+    background-color: white !important;
+    padding: 0.5%;
+    margin: 0.3%;
+    border-radius: 15px;
+}
+
 /*  -------------------------------------------------- */
 /* Seccion Introduccion */
 
@@ -123,6 +139,7 @@
 .icon-contact{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 10%;
     margin-top: 2%;
 }
@@ -133,6 +150,7 @@
 }
 
 .icon:hover{
+    transition: 1s;
     opacity: 1;
 }
 
@@ -158,6 +176,7 @@
 .img-section:hover{
     opacity: 1;
     cursor: pointer;
+    transition: 1s;
 }
 
 /* ------------------ */
@@ -185,6 +204,7 @@
 
     .container-secciont-ini{
         margin: 4% auto;
+        width: 95%;
     }
 
     /* Seccion top */
@@ -233,20 +253,7 @@
         margin: 5% auto;
     }
     .icon-contact{
-        
         margin: 5% auto;
     }
 
-
-
 }
-
-
-/* Perdidos
-
-.sub-title-main{
-    font-size: 2rem;
-}
-
-
-*/
